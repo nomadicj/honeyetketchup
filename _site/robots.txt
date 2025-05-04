@@ -1,1 +1,1 @@
-Sitemap: https://nomadicj.github.io/honeyetketchup/sitemap.xml
+Sitemap: http://0.0.0.0:4000/honeyetketchup/sitemap.xml
