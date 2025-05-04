@@ -1,0 +1,153 @@
+title: Honey et Ketchup
+email: your-email@example.com
+description: >-
+  Un site de critique de livre adapté aux enfants pour "Honey et Ketchup" par Jonathan Bécotte et Sabrina Gendron
+baseurl: "/honeyetketchup"
+url: "https://www.armstro.ca"
+lang: "fr"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections_dir: ""
+collections:
+  en_posts:
+    output: true
+    permalink: /en/:year/:month/:day/:title/
+
+# Book information
+book:
+  title: "Honey et Ketchup"
+  authors: 
+    - "Jonathan Bécotte"
+    - "Sabrina Gendron"
+  published_date: "26 janvier 2021"
+  publisher: "Québec Amérique"
+  language: "Français"
+  isbn: "9782764442913"
+  pages: 64
+  genres:
+    - "Littérature jeunesse"
+    - "Récits multiculturels"
+  themes:
+    - "Amitié"
+    - "Multiculturalisme"
+    - "Communication"
+    - "Apprentissage des langues"
+    - "Relations familiales"
+  
+# Translations
+t:
+  fr:
+    site_description: "Un site de critique de livre adapté aux enfants pour \"Honey et Ketchup\" par Jonathan Bécotte et Sabrina Gendron"
+    menu:
+      home: "Accueil"
+      about: "À propos"
+      resources: "Ressources"
+      articles: "Articles"
+    home:
+      read_review: "Lire la critique"
+      explore_resources: "Explorer les ressources"
+      book_description: "Description du livre"
+      book_details: "Détails du livre"
+      book_description_text: "\"Honey et Ketchup\" raconte l'histoire touchante d'un enfant dont le père a une nouvelle amoureuse qui parle anglais. La petite amie a un fils du même âge que notre protagoniste, mais il parle aussi anglais. Ils viennent d'Australie."
+      book_dilemma: "Le père est certain que les enfants s'entendront bien, mais notre protagoniste se demande : pourront-ils se comprendre malgré la barrière de la langue ?"
+      pages: "pages"
+      key_themes: "Thèmes principaux"
+      building_connections: "Créer des liens au-delà des barrières"
+      embracing_differences: "Accepter les différences"
+      finding_ways: "Trouver des façons de se comprendre"
+      bridging_divides: "Combler les fossés linguistiques"
+      navigating_families: "Naviguer dans les familles recomposées"
+      book_review: "Critique du livre"
+      highly_recommended: "Fortement recommandé"
+      reviewer: "Éditeur de critiques de livres"
+      activities: "Activités pour jeunes lecteurs"
+      language_learning: "Apprentissage des langues"
+      language_activity: "Essayez d'apprendre 5 mots dans une langue différente. Commencez par des salutations simples ou des mots que vous utilisez tous les jours."
+      visual_communication: "Communication visuelle"
+      visual_activity: "Dessinez une image montrant comment les amis peuvent communiquer sans mots. Utilisez des expressions faciales et des gestes."
+      mini_dictionary: "Mini-dictionnaire"
+      dictionary_activity: "Créez un \"pont linguistique\" en faisant un mini-dictionnaire de mots importants qui vous aideraient à vous faire des amis."
+      learn_more: "En savoir plus"
+      latest_articles: "Derniers articles"
+      view_all: "Voir tout"
+      read_more: "Lire la suite"
+    blog:
+      title: "Tous les articles"
+      subtitle: "Plongez plus profondément dans les thèmes et activités liés à \"Honey et Ketchup\""
+      continue_reading: "Continuer la lecture"
+      about_book: "À propos du livre"
+      book_summary: "Une histoire touchante sur le franchissement des barrières linguistiques et la création de liens au-delà des différences culturelles."
+      categories: "Catégories"
+      resources: "Ressources"
+      classroom_activities: "Activités de classe"
+      discussion_questions: "Questions de discussion"
+      similar_books: "Livres similaires"
+  en:
+    site_description: "A child-friendly book review site for \"Honey et Ketchup\" by Jonathan Bécotte and Sabrina Gendron"
+    menu:
+      home: "Home"
+      about: "About"
+      resources: "Resources"
+      articles: "Articles"
+    home:
+      read_review: "Read Review"
+      explore_resources: "Explore Resources"
+      book_description: "Book Description"
+      book_details: "Book Details"
+      book_description_text: "\"Honey et Ketchup\" tells the heartwarming story of a child whose father has a new girlfriend who speaks English. The girlfriend has a son the same age as our protagonist, but he also speaks English. They're from Australia."
+      book_dilemma: "The father is certain the children will get along well, but our protagonist wonders: will they be able to understand each other despite the language barrier?"
+      pages: "pages"
+      key_themes: "Key Themes"
+      building_connections: "Building connections across barriers"
+      embracing_differences: "Embracing different backgrounds"
+      finding_ways: "Finding ways to understand each other"
+      bridging_divides: "Bridging linguistic divides"
+      navigating_families: "Navigating blended families"
+      book_review: "Book Review"
+      highly_recommended: "Highly Recommended"
+      reviewer: "Book Review Editor"
+      activities: "Activities for Young Readers"
+      language_learning: "Language Learning"
+      language_activity: "Try learning 5 words in a different language. Start with simple greetings or words you use every day."
+      visual_communication: "Visual Communication"
+      visual_activity: "Draw a picture showing how friends can communicate without words. Use facial expressions and gestures."
+      mini_dictionary: "Mini-Dictionary"
+      dictionary_activity: "Create a \"language bridge\" by making a mini-dictionary of important words that would help you make friends."
+      learn_more: "Learn More"
+      latest_articles: "Latest Articles"
+      view_all: "View All"
+      read_more: "Read more"
+    blog:
+      title: "All Articles"
+      subtitle: "Dive deeper into themes and activities related to \"Honey et Ketchup\""
+      continue_reading: "Continue Reading"
+      about_book: "About The Book"
+      book_summary: "A heartwarming story about bridging language barriers and forming connections across cultural differences."
+      categories: "Categories"
+      resources: "Resources"
+      classroom_activities: "Classroom Activities"
+      discussion_questions: "Discussion Questions"
+      similar_books: "Similar Books"
+
+# Exclude from processing
+exclude:
+  - .git/
+  - .github/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .claude/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
