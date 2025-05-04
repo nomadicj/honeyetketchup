@@ -2,8 +2,8 @@ title: Honey et Ketchup
 email: your-email@example.com
 description: >-
   Un site de critique de livre adapté aux enfants pour "Honey et Ketchup" par Jonathan Bécotte et Sabrina Gendron
-baseurl: ""
-url: ""
+baseurl: "/honeyetketchup"
+url: "https://nomadicj.github.io"
 lang: "fr"
 
 # Build settings
