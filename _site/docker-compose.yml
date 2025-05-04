@@ -1,0 +1,17 @@
+services:
+  jekyll:
+    image: docker.io/arm64v8/ruby:3.2
+    command: >
+      bash -c "
+        gem install bundler &&
+        bundle install &&
+        bundle exec jekyll serve --host 0.0.0.0 --watch --livereload"
+    ports:
+      - 4000:4000
+      - 35729:35729
+    volumes:
+      - .:/srv/jekyll
+    working_dir: /srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
+    restart: always
